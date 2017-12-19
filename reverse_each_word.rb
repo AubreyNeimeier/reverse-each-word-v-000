@@ -35,3 +35,9 @@ def reverse_each_word(argument)
 =begin
 def reverse_each_word(sentence)
   sentence.split.collect {|word| word.reverse}.join(" ")
+end
+
+##MY ATTEMPT AT ELEGANT SOLUTION USING Each
+def reverse_each_word(sentence)
+  sentence.split.each {|word| word.reverse}.join (" ")
+end
