@@ -40,5 +40,6 @@ end
 
 ##MY ATTEMPT AT ELEGANT SOLUTION USING Each
 def reverse_each_word(sentence)
-  sentence.split.each {|word| word.reverse}.join(" ")
+  new_array =[ ]
+  new_array = sentence.split.each {|word| word.reverse}.join(" ")
 end
