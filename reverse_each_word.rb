@@ -17,7 +17,7 @@ def reverse_each_word(argument)
     end
   reverse_words.join(" ")
 end
-=end
+
 
 # SOLVE WITH collect
 def reverse_each_word(argument)
@@ -29,7 +29,7 @@ def reverse_each_word(argument)
     end
     reverse_words.join(" ")
   end
-
+=end
 
 ##FORMAL SOLUTION---3 lines
 =begin
